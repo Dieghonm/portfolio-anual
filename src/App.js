@@ -1,9 +1,15 @@
+import { useState } from 'react';
 import './App.css';
+import AppBody from './AppComponents/AppBody';
+import AppHeader from './AppComponents/AppHeader';
 
 function App() {
+  const [portfolio, setPortfolio] = useState('')
+
   return (
     <div className="App">
-      portfolio
+      <AppHeader setPortfolio={setPortfolio}/>
+      <AppBody portfolio={portfolio}/>
     </div>
   );
 }

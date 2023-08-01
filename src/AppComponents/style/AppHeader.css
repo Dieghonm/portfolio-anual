@@ -1,0 +1,15 @@
+header {
+
+}
+
+header p {
+  margin: 2px;
+}
+
+header button {
+  margin: 0px 2px;
+  width: 100px;
+  border: 2px dotted;
+  border-style: solid solid none solid;
+  border-radius: 50px 50px 0px 0px;
+}

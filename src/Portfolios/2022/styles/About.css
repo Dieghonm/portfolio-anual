@@ -1,0 +1,39 @@
+.about { 
+  background-color: var(--background-color);
+  color: var(--text-color);
+  padding: 5px;
+  text-align: center;
+  width: 800px;
+  border-radius: 5%;
+  box-shadow: 0 0 30px var(--primary-color);
+  font-size: 20px
+}
+
+.about-description {
+  margin: 0 0 20px 0;
+}
+
+.about-subtitle {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.about-content {
+  text-align: justify;
+}
+
+.about-content p {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .about {
+    width: 95%;
+    border-radius: 0;
+  }
+
+  .about-subtitle {
+    margin: 10px;
+    font-size: 20px;
+  }
+}
