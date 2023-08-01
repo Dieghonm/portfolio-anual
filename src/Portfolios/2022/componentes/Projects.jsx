@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import {ArrowIosBack} from '@styled-icons/evaicons-solid/ArrowIosBack'
 import {ArrowIosForward} from '@styled-icons/evaicons-solid/ArrowIosForward'
-import { projectsData } from '../../../data/Projetos/projectsData';
+import { projectsData } from '../../../data/data';
 import '../styles/Projects.css';
 
 function Projects() {
