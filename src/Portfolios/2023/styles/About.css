@@ -6,7 +6,7 @@
 }
 
 .trabalho2023 {
-  background-color: var(--background-color-card);
+  background-color: var(--background-color-secundary);
   margin:  0 30px;
   padding: 10px 20px;
   display: flex;
@@ -16,8 +16,8 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.bug2023 {
-  background-color: var(--background-color-card);
+.bug-description2023 {
+  background-color: var(--background-color-secundary);
   margin:  5px 30px;
   padding: 10px 20px;
   display: flex;
@@ -38,7 +38,7 @@
 
 .about-content2023 {
   text-align: justify;
-  background-color: var(--background-color-card);
+  background-color: var(--background-color-secundary);
   margin:  50px;
   padding: 10px 20px;
   display: flex;

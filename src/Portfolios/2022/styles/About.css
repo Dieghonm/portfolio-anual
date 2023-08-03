@@ -1,6 +1,6 @@
 .about { 
-  background-color: var(--background-color);
-  color: var(--text-color);
+  background-color: var(--background-color-primary);
+  color: var(--text-color-secundary);
   padding: 5px;
   text-align: center;
   width: 800px;

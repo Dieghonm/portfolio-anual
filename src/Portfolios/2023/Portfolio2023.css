@@ -1,22 +1,6 @@
-.App {
-  background-color: var(--background-color-App);
-  color: var(--text-color-App);
-
+.Portfolio2023 {
+  background-color: var(--background-color-primary);
+  color: var(--text-color-primary);
+  
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  width: 1000px;
-}
-
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: var(--background-color);
-  color: var(--text-color);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px;
 }

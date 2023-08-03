@@ -10,7 +10,7 @@
 .header-nav svg {
   width: 60px;
   margin: 0 20px;
-  color: var(--text-color-App);
+  color: var(--text-color-primary);
 }
 
 @media screen and (max-width: 600px) {

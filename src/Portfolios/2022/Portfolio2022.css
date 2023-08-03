@@ -1,6 +1,6 @@
 .Portfolio2022 {
   background-color: var(--background-color-App);
-  color: var(--text-color-App);
+  color: var(--text-color-primary);
   display: flex;
   flex-direction: column;
   align-items: center;

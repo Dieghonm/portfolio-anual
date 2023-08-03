@@ -1,8 +1,13 @@
 :root {
   --background-color-App: #333333;
-  --text-color-App: #f9f9f9b4;
-  --background-color: #f9f9f9b4;
-  --text-color: #333333;
+  --background-color-primary: #f9f9f9b4;
+  --background-color-secundary: #333333;
+
+
+  --text-color-primary: #f9f9f9b4;
+  --text-color-secundary: #333333;
+
+
   --primary-color: #2c3e50;
   --secondary-color: #e74c3c;
   --accent-color: #f9f9f9;
@@ -13,7 +18,7 @@
   --text-color: #333333;
   --background-color-App: #c7c8ceb4;
   --background-color-card: #333333;
-  --text-color-App: #f9f9f9b4;
+  --text-color-primary: #f9f9f9b4;
   --primary-color: #2c455e;
   --secondary-color: #e74c3c;
   --accent-color: #f9f9f9;

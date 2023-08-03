@@ -12,7 +12,7 @@ function About() {
         Meu trabalho consiste em criar soluções para a web, atuando tanto no desenvolvimento <i>front-end</i> quanto no <i>back-end</i>. Atualmente, estou expandindo meu conhecimento na área de dados.</h4>
         <img src={programmer} alt="computador" />
       </div>
-      <div className="bug">
+      <div className="bug-description2023">
         <img src={BugHunter} alt="BugHunter" />
         <h4 className="about-description2023">
         Além disso, adoro a emocionante tarefa de caçar bugs. Passo a maior parte do meu tempo investigando 

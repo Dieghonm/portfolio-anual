@@ -1,6 +1,4 @@
 .projects {
-  background-color: var(--background-color);
-  color: var(--text-color);
   padding: 20px 0;
   text-align: center;
   font-size: 18px
@@ -13,6 +11,8 @@
 }
 
 .carousel {
+  background-color: var(--background-color-primary);
+  color: var(--text-color-secundary);
   width: 70%;
   margin: 0% 15%;
   border-radius: 10%;

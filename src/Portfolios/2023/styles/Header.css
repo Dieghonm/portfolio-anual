@@ -9,7 +9,7 @@
   border-left-style: solid;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   display: flex;
-  background-color: var(--background-color-card);
+  background-color: var(--background-color-secundary);
 }
 
 header img {

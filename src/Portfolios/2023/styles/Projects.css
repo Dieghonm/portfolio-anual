@@ -1,17 +1,17 @@
-.projects {
+.projects-2023 {
   background-color: var(--background-color);
   color: var(--text-color);
   padding: 20px 0;
   text-align: center;
 }
 
-.projects-title {
+.projects-title-2023 {
   margin-bottom: 20px;
   font-size: 24px;
   text-align: center;
 }
 
-.carousel {
+.carousel-2023 {
   width: 70%;
   margin: 0% 15%;
   border-radius: 5%;
@@ -20,8 +20,8 @@
   align-items: center;
 }
 
-.prev-button,
-.next-button {
+.prev-button-2023,
+.next-button-2023 {
   color: var(--text-color);
   border: none;
   margin: 10px;
@@ -31,30 +31,30 @@
   box-shadow: 0 0 5px var(--primary-color);
 }
 
-.mobile-prev-button,
-.mobile-next-button {
+.mobile-prev-button-2023,
+.mobile-next-button-2023 {
   visibility: hidden;
 }
 
-.mobile-buttons {
+.mobile-buttons-2023 {
   display: flex;
   justify-content:center
 }
 
-.project-links a:hover,
-.prev-button:hover,
-.next-button:hover {
+.project-links-2023 a:hover,
+.prev-button-2023:hover,
+.next-button-2023:hover {
   box-shadow: 0 0 50px var(--primary-color);
 }
 
-.projects-list {
+.projects-list-2023 {
   flex: 1;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 20px;
 }
 
-.project-item {
+.project-item-2023 {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -62,7 +62,7 @@
   flex-direction: column;
 }
 
-.project-image {
+.project-image-2023 {
   width: 100%;
   height: 300px;
   object-fit: cover;
@@ -70,23 +70,23 @@
   margin-bottom: 10px;
 }
 
-.project-title {
+.project-title-2023 {
   margin-bottom: 10px;
   font-size: 18px;
   font-weight: bold;
 }
 
-.project-description {
+.project-description-2023 {
   margin-bottom: 10px;
   height: 100px;
 }
 
-.project-links {
+.project-links-2023 {
   display: flex;
   justify-content: space-between;
 }
 
-.project-links a {
+.project-links-2023 a {
   width: 200px;
   padding: 5px 10px;
   border-radius: 5px;
@@ -97,18 +97,18 @@
 } 
 
 @media screen and (max-width: 600px) {
-  .prev-button,
-  .next-button {
+  .prev-button-2023,
+  .next-button-2023 {
     visibility: hidden;
   }
 
-  .mobile-buttons {
+  .mobile-buttons-2023 {
     display: flex;
     justify-content:center
   }
   
-  .mobile-prev-button,
-  .mobile-next-button {
+  .mobile-prev-button-2023,
+  .mobile-next-button-2023 {
     visibility: visible;
     border: none;
     padding: 0;
@@ -119,39 +119,39 @@
     cursor: pointer;
   }
 
-  .projects {
+  .projects-2023 {
     padding: 10px 0;
   }
   
-  .carousel {
+  .carousel-2023 {
     width: 100%;
     margin: 0%;
     border-radius: 0%;
     box-shadow: 0 0 0px var(--primary-color);
   }
 
-  .project-image {
+  .project-image-2023 {
     width: 300px;
     height: 160px;
   }
 
-  .mobile-prev-button svg,
-  .mobile-next-button svg{
+  .mobile-prev-button-2023 svg,
+  .mobile-next-button-2023 svg{
     margin: 0;
     width: 30px;
   }
   
-  .project-item {
+  .project-item-2023 {
     padding: 0px;
     border-radius: 0px;
     box-shadow: 0 0 0px rgba(0, 0, 0, 0.2);
   }
 
-  .project-links a {
+  .project-links-2023 a {
     width: 100px;
   }
   
-  .project-description {
+  .project-description-2023 {
     margin-bottom: 10px;
     height: 120px;
   }
