@@ -1,0 +1,46 @@
+.SkillsDiv {
+  background-color: var(--background-color-card);
+  margin:  5px 30px;
+  padding: 10px 20px;
+  border: 15px var(--primary-color);
+  border-left-style: solid;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.MainDiv h2 {
+  display: flex;
+  padding: 30px 20px 20px;
+  margin: 0;
+  justify-content: center;
+}
+
+.SkillsgroupDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+svg {
+  width: 55px;
+  margin: 5px 10px;
+}
+
+.TooltipBox {
+  visibility: hidden;
+  text-align: center;
+  border-radius: 6px;
+  padding: 2px;
+  transition: opacity 0.5s;
+  position: relative;
+  z-index: 1;
+}
+
+.SkillDiv .IconDiv:hover + .TooltipBox {
+  visibility: visible;
+}
+
+@media screen and (max-width: 600px) {
+  .SkillsgroupDiv {
+    box-shadow: 0 0 10px rgba(250, 248, 248, 0.2);
+  }
+} 

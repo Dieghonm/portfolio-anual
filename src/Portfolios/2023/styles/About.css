@@ -1,0 +1,77 @@
+.about2023 img {
+  width: 50px;
+  height: 60px;
+  margin: 0 10px;
+  border: 5px solid var( --accent-color);
+}
+
+.trabalho2023 {
+  background-color: var(--background-color-card);
+  margin:  0 30px;
+  padding: 10px 20px;
+  display: flex;
+  border: 15px var(--primary-color);
+  border-right-style: solid;
+  /* border-left-style: solid; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.bug2023 {
+  background-color: var(--background-color-card);
+  margin:  5px 30px;
+  padding: 10px 20px;
+  display: flex;
+  border: 15px var(--primary-color);
+  /* border-right-style: solid; */
+  border-left-style: solid;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-description2023 {
+  margin: 15px;
+}
+
+.about-subtitle2023 {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.about-content2023 {
+  text-align: justify;
+  background-color: var(--background-color-card);
+  margin:  50px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  border: 15px var(--secondary-color);
+  border-right-style: solid;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.about-content2023 p {
+  margin-bottom: 20px;
+}
+
+.about-cotent2023 h5 {
+  margin: 20px;
+}
+
+.about-content-div2023 {
+  display: flex;
+  margin: 0 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .about2023 {
+    width: 95%;
+    border-radius: 0;
+  }
+
+  .about-subtitle2023 {
+    margin: 10px;
+    font-size: 20px;
+  }
+}

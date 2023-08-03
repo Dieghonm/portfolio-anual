@@ -16,9 +16,11 @@ function AppBody(props) {
       case '2022':
         return <Portfolio2022 />
       case '2023':
-        return <Portfolio2023 />      
+        return <Portfolio2023 />   
+      case '2023/2':
+        return <Portfolio2023 />    
       default:
-        return <Portfolio2023B />  
+        return <Portfolio2022 />  
     }
   }
 

@@ -1,14 +1,3 @@
-:root {
-  --background-color-App: #333333;
-  --text-color-App: #f9f9f9b4;
-
-  --background-color: #f9f9f9b4;
-  --text-color: #333333;
-  --primary-color: #2c3e50;
-  --secondary-color: #e74c3c;
-  --accent-color: #f9f9f9;
-}
-
 .Portfolio2022 {
   background-color: var(--background-color-App);
   color: var(--text-color-App);
