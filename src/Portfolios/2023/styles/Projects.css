@@ -1,28 +1,25 @@
 .projects-2023 {
-  background-color: var(--background-color);
-  color: var(--text-color);
-  padding: 20px 0;
-  text-align: center;
-}
-
-.projects-title-2023 {
-  margin-bottom: 20px;
-  font-size: 24px;
-  text-align: center;
+  background-color: var(--background-color-secundary);
+  margin:  50px 30px;
+  padding: 10px 20px;
+  border: 15px var(--primary-color);
+  border-right-style: solid;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .carousel-2023 {
-  width: 70%;
-  margin: 0% 15%;
+  width: 900px;
   border-radius: 5%;
-  box-shadow: 0 0 30px var(--primary-color);
+  background-color: var(--background-color-terciary);
   display: flex;
   align-items: center;
 }
 
 .prev-button-2023,
 .next-button-2023 {
-  color: var(--text-color);
   border: none;
   margin: 10px;
   padding: 20px 0px;
@@ -55,19 +52,19 @@
 }
 
 .project-item-2023 {
+  margin: 10px 0;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
 }
 
 .project-image-2023 {
-  width: 100%;
+  width: 600px;
   height: 300px;
   object-fit: cover;
   border-radius: 5px;
-  margin-bottom: 10px;
+  margin: 10px 35px 0px;
 }
 
 .project-title-2023 {
@@ -86,15 +83,17 @@
   justify-content: space-between;
 }
 
+
 .project-links-2023 a {
   width: 200px;
   padding: 5px 10px;
   border-radius: 5px;
   text-decoration: none;
-  color: var(--text-color);
+  color: var(--text-color-secundary);
   background-color: var(--accent-color);
   transition: background-color 0.3s ease;
 } 
+
 
 @media screen and (max-width: 600px) {
   .prev-button-2023,

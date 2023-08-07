@@ -1,6 +1,7 @@
 .Portfolio2023 {
   background-color: var(--background-color-primary);
   color: var(--text-color-primary);
+  padding-bottom: 5px;
   
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
