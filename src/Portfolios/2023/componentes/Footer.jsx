@@ -6,7 +6,7 @@ import '../styles/Footer.css';
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer-2023">
       <nav className="header-nav">
         <a href="https://www.linkedin.com/in/diegho-neves/" target="_blank" rel="noopener noreferrer"><Linkedin /></a>
         <a href="https://github.com/Dieghonm" target="_blank" rel="noopener noreferrer"><Github /></a>
