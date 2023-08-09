@@ -37,7 +37,7 @@
 .about-content2023 {
   text-align: justify;
   background-color: var(--background-color-secundary);
-  margin:  50px;
+  margin:  50px 70px;
   padding: 10px 20px;
   display: flex;
   flex-direction: column;
