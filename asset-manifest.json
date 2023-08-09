@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-anual/static/css/main.e023ed00.css",
-    "main.js": "/portfolio-anual/static/js/main.b669b85a.js",
+    "main.css": "/portfolio-anual/static/css/main.fb16cd32.css",
+    "main.js": "/portfolio-anual/static/js/main.81f887a9.js",
     "static/js/787.fcd3c7c6.chunk.js": "/portfolio-anual/static/js/787.fcd3c7c6.chunk.js",
     "static/media/AventurasFantasticas.png": "/portfolio-anual/static/media/AventurasFantasticas.82cd1939d968760face9.png",
     "static/media/RPG.png": "/portfolio-anual/static/media/RPG.e4b4df64995f2b912bef.png",
@@ -9,12 +9,12 @@
     "static/media/Pokedex.png": "/portfolio-anual/static/media/Pokedex.26dd346613aedd7c82d1.png",
     "static/media/BugHunter.jpg": "/portfolio-anual/static/media/BugHunter.f1ef9a949ec48f5552ae.jpg",
     "index.html": "/portfolio-anual/index.html",
-    "main.e023ed00.css.map": "/portfolio-anual/static/css/main.e023ed00.css.map",
-    "main.b669b85a.js.map": "/portfolio-anual/static/js/main.b669b85a.js.map",
+    "main.fb16cd32.css.map": "/portfolio-anual/static/css/main.fb16cd32.css.map",
+    "main.81f887a9.js.map": "/portfolio-anual/static/js/main.81f887a9.js.map",
     "787.fcd3c7c6.chunk.js.map": "/portfolio-anual/static/js/787.fcd3c7c6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e023ed00.css",
-    "static/js/main.b669b85a.js"
+    "static/css/main.fb16cd32.css",
+    "static/js/main.81f887a9.js"
   ]
 }
