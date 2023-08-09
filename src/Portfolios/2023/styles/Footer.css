@@ -2,7 +2,7 @@
   margin: 30px;
   text-align: center;
   padding: 10px 20px;
-  border: 15px var(--secondary-color);
+  border: 25px var(--secondary-color);
   border-left-style: solid;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   background-color: var(--background-color-secundary);

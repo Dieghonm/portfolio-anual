@@ -10,7 +10,7 @@
   margin:  0 30px;
   padding: 10px 20px;
   display: flex;
-  border: 15px var(--primary-color);
+  border: 25px var(--primary-color);
   border-right-style: solid;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
@@ -20,7 +20,7 @@
   margin:  5px 30px;
   padding: 10px 20px;
   display: flex;
-  border: 15px var(--primary-color);
+  border: 25px var(--primary-color);
   border-left-style: solid;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }

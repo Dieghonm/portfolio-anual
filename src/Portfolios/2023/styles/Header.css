@@ -1,11 +1,11 @@
 .header2023 {
-  padding: 50px;
+  padding: 50px 90px ;
   text-align: center;
 }
 
 .container2023 {
   padding: 10px 20px;
-  border: 15px var(--secondary-color);
+  border: 25px var(--secondary-color);
   border-left-style: solid;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   display: flex;

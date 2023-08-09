@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './Portfolio2023B.css'
 import About from './componentes/About'
+import Init from './componentes/Init'
 import Footer from './componentes/Footer'
 
 function Portfolio2023B() {
@@ -17,6 +18,9 @@ function Portfolio2023B() {
 
   return (
     <div className="container-2023B">
+      <button onClick={() => setComponent('Init')}>{vert('Init')}</button>
+      {component === 'Init'? <div><Init/></div>:null}
+
       <button onClick={() => setComponent('Sobre')}>{vert('Sobre')}</button>
       {component === 'Sobre'? <div><About/></div>:null}
 

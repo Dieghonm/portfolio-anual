@@ -1,15 +1,15 @@
-.about2023B {
+.init2023B {
   padding: 20px;
 }
 
-.container2023b {
+.container2023B {
   display: flex;
   align-items: center;
   padding: 0 150px;
 
 }
 
-.container2023b img{
+.container2023B img{
   width: 150px;
   margin: 10px 20px;
   border-radius: 50%;
@@ -38,7 +38,7 @@
   margin: 0px 20px;
 }
 
-.about-description2023B {
+.init-description2023B {
   width: 800px;
   margin: 30px 20px;
 }
