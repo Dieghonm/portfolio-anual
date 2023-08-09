@@ -1,0 +1,44 @@
+.about2023B {
+  padding: 20px;
+}
+
+.container2023b {
+  display: flex;
+  align-items: center;
+  padding: 0 150px;
+
+}
+
+.container2023b img{
+  width: 150px;
+  margin: 10px 20px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+
+.trabalho2023B {
+  display: flex;
+  align-items: center;
+  margin: 0px 20px;
+}
+
+.trabalho2023B img{
+  height: 70px;
+  margin: 0px 20px;
+}
+
+.bug-description2023B {
+  display: flex;
+  align-items: center;
+  margin: 0px 20px;
+}
+
+.bug-description2023B img{
+  height: 70px;
+  margin: 0px 20px;
+}
+
+.about-description2023B {
+  width: 800px;
+  margin: 30px 20px;
+}

@@ -1,0 +1,7 @@
+.container-2023B {
+  width: 1150px;
+  height: 500px;
+  background-color: var(--background-color-primary);
+  color: var(--text-color-secundary);
+  display: flex;
+}
