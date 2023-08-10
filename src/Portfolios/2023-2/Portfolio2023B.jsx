@@ -5,7 +5,7 @@ import Init from './componentes/Init'
 import Footer from './componentes/Footer'
 
 function Portfolio2023B() {
-  const [component, setComponent] = useState('Sobre')
+  const [component, setComponent] = useState('Init')
   // const array = ['Sobre','Skills','Projetos','Contato']
 
   const vert = (text) => {
