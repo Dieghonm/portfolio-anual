@@ -1,10 +1,11 @@
 import React from 'react';
+import '../styles/Projects.css'
 
 function Projects () {
   return (
-    <div>
+    <section className="Projects2023B">
       Projects
-    </div>
+    </section>
   );
 }
 

@@ -2,11 +2,12 @@ import { useState } from 'react'
 import './Portfolio2023B.css'
 import About from './componentes/About'
 import Init from './componentes/Init'
-import Footer from './componentes/Footer'
+import Contact from './componentes/Contact'
+import Skills from './componentes/Skills'
+import Projects from './componentes/Projects'
 
 function Portfolio2023B() {
   const [component, setComponent] = useState('Init')
-  // const array = ['Sobre','Skills','Projetos','Contato']
 
   const vert = (text) => {
     const array = []
@@ -18,21 +19,23 @@ function Portfolio2023B() {
 
   return (
     <div className="container-2023B">
-      <button onClick={() => setComponent('Init')}>{vert('Init')}</button>
-      {component === 'Init'? <div><Init/></div>:null}
+      <div onClick={() => setComponent('Init')} className='Eu'>
+        {component === 'Init'? <div><Init/></div>:<p className='Abas-2023B'>Diegho Moraes</p>}
+      </div>
 
-      <button onClick={() => setComponent('Sobre')}>{vert('Sobre')}</button>
-      {component === 'Sobre'? <div><About/></div>:null}
+      <div onClick={() => setComponent('Sobre')} className='Sobre'>
+        {component === 'Sobre'? <div><About/></div>:<p className='Abas-2023B'>Sobre</p>}
+      </div>
 
-      <button onClick={() => setComponent('Skills')}>{vert('Skills')}</button>
-      {component === 'Skills'? <div>Skills</div>:null}
-
-      <button onClick={() => setComponent('Projetos')}>{vert('Projetos')}</button>
-      {component === 'Projetos'? <div>Projetos</div>:null}
-
-      <button onClick={() => setComponent('Contato')}>{vert('Contato')}</button>
-      {component === 'Contato'? <div><Footer /></div>:null}
-
+      <div onClick={() => setComponent('Skills')} className='Skills'>
+        {component === 'Skills'? <div><Skills /></div>:<p className='Abas-2023B'>Skills</p>}
+      </div>
+      <div onClick={() => setComponent('Projetos')} className='Projetos'>
+        {component === 'Projetos'? <div><Projects/></div>:<p className='Abas-2023B'>Projetos</p>}
+      </div>
+      <div onClick={() => setComponent('Contato')} className='Contato'>
+        {component === 'Contato'? <div><Contact/></div>:<p className='Abas-2023B'>Contato</p>}
+      </div>
     </div>
   )
 }

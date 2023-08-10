@@ -33,7 +33,6 @@ function Projects() {
 
   return (
     <section className="projects-2023">
-      {/* <div className="container-2023"> */}
         <div className="mobile-buttons-2023">
           <button className="mobile-prev-button-2023" onClick={prevSlide}><ArrowIosBack /></button>
           <h2 className="projects-title-2023">Projetos</h2>
@@ -47,7 +46,6 @@ function Projects() {
           </div>
           <button className="next-button-2023" onClick={nextSlide}><ArrowIosForward /></button>
         </div>
-      {/* </div> */}
     </section>
   );
 }

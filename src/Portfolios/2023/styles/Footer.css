@@ -13,9 +13,16 @@
 }
 
 .header-nav svg {
-  width: 60px;
-  margin: 0 20px;
+  width: 50px;
+  margin: 10px 20px;
   color: var(--text-color-primary);
+}
+
+.header-nav svg:hover {
+  width: 65px;
+  margin: 0 12.5px;
+  color: var(--primary-color);
+  transition: 0.5s;
 }
 
 @media screen and (max-width: 600px) {

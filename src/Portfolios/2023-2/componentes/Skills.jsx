@@ -20,7 +20,7 @@ import {Nodejs} from '@styled-icons/boxicons-logos/Nodejs'
 import {Mongodb} from '@styled-icons/simple-icons/Mongodb'
 import {Sequelize} from '@styled-icons/simple-icons/Sequelize'
 
-// import '../styles/Skills.css'
+import '../styles/Skills.css'
 
 const sistems = [<Linux/>, <Git />, <Docker />, <VisualStudio />, <Javascript />, <Typescript /> ,<Jest />, <Eslint />, <Python />]
 const fronts = [<Html5 />, <Css3 />, <ReactLogo />, <Rtl />, <Redux />, <Styledcomponents />, <Cypress />]
@@ -45,15 +45,15 @@ function Skills() {
   }
 
   return (
-    <div className="SkillsDiv">
+    <div className="Skills2023B">
       <h2>Skills</h2>
-        <div className="SkillsgroupDiv">
+        <div className="">
           {sistems.map((sis,index) => iconDiv(sis, index, sistemsName))}
         </div>
-        <div className="SkillsgroupDiv">
+        <div className="">
           {fronts.map((fro,index) => iconDiv(fro, index, frontsName))}
         </div>
-        <div className="SkillsgroupDiv">
+        <div className="">
           {backs.map((back,index) => iconDiv(back, index, backsName))}
         </div>
     </div>

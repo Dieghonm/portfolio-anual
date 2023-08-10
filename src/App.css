@@ -12,6 +12,17 @@
   --secondary-color: #25486b;
   --primary-color: #e74c3c;
   --accent-color: #f9f9f9;
+
+  --pasteis-lemon:#fbf8cc;
+  --pasteis-champanhe:#fde4cf;
+  --pasteis-pink:#ffcfd2;
+  --pasteis-pinkLavander:#f1c0e8;
+  --pasteis-lavanderBlue:#cfbaf0;
+  --pasteis-babeBlue:#a3c4f3;
+  --pasteis-skyBlue:#90dbf4;
+  --pasteis-EletricBlue:#8eecf5;
+  --pasteis-mint:#98f5e1;
+  --pasteis-apple:#b9fbc0;
 }
 
 /* :root {

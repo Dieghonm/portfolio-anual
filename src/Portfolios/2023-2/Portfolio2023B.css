@@ -5,3 +5,42 @@
   color: var(--text-color-secundary);
   display: flex;
 }
+
+.Abas-2023B {
+  margin: 10px 20px 30px 0px;
+  padding: 20px 0.1px;
+  font-weight: bolder;
+  writing-mode: vertical-rl;
+  transform: rotate(-180deg);
+}
+
+.Eu,
+.Sobre,
+.Skills,
+.Projetos,
+.Contato
+{
+  font-size: 16px;
+  border: 1px solid black;
+  font-weight: bolder;
+}
+
+.Eu {
+ background-color: var(--pasteis-apple);
+}
+
+.Sobre {
+  background-color: var(--pasteis-mint);
+}
+
+.Skills {
+  background-color: var(--pasteis-EletricBlue);
+}
+
+.Projetos {
+  background-color: var(--pasteis-skyBlue);
+}
+
+.Contato {
+  background-color: var(--pasteis-babeBlue);
+}

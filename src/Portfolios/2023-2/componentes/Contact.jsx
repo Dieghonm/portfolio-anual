@@ -2,11 +2,11 @@ import React from 'react';
 import {Linkedin} from '@styled-icons/boxicons-logos/Linkedin'
 import {Github} from '@styled-icons/boxicons-logos/Github'
 import {Email} from '@styled-icons/evaicons-solid/Email'
-// import '../styles/Footer.css';
+import '../styles/Contact.css';
 
-function Footer() {
+function Contct() {
   return (
-    <footer className="footer-2023">
+    <footer className="Contact2023B">
       <nav className="header-nav">
         <a href="https://www.linkedin.com/in/diegho-neves/" target="_blank" rel="noopener noreferrer"><Linkedin /></a>
         <a href="https://github.com/Dieghonm" target="_blank" rel="noopener noreferrer"><Github /></a>
@@ -19,4 +19,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default Contct;
