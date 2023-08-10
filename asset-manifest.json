@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio-anual/static/css/main.4cb432f0.css",
-    "main.js": "/portfolio-anual/static/js/main.c2003b58.js",
+    "main.css": "/portfolio-anual/static/css/main.d231a5a3.css",
+    "main.js": "/portfolio-anual/static/js/main.758cff10.js",
     "static/js/787.fcd3c7c6.chunk.js": "/portfolio-anual/static/js/787.fcd3c7c6.chunk.js",
     "static/media/AventurasFantasticas.png": "/portfolio-anual/static/media/AventurasFantasticas.82cd1939d968760face9.png",
+    "static/media/computer.png": "/portfolio-anual/static/media/computer.8cc3053c5460535c9fa3.png",
+    "static/media/programmer.png": "/portfolio-anual/static/media/programmer.c2d4ef26ace289f1cee3.png",
     "static/media/RPG.png": "/portfolio-anual/static/media/RPG.e4b4df64995f2b912bef.png",
     "static/media/perfil.jpeg": "/portfolio-anual/static/media/perfil.93922251a022d78dd59c.jpeg",
     "static/media/Pokedex.png": "/portfolio-anual/static/media/Pokedex.26dd346613aedd7c82d1.png",
-    "static/media/BugHunter.jpg": "/portfolio-anual/static/media/BugHunter.f1ef9a949ec48f5552ae.jpg",
+    "static/media/BugHunter.jpg": "/portfolio-anual/static/media/BugHunter.fc5f6ef5e083c4034614.jpg",
     "index.html": "/portfolio-anual/index.html",
-    "main.4cb432f0.css.map": "/portfolio-anual/static/css/main.4cb432f0.css.map",
-    "main.c2003b58.js.map": "/portfolio-anual/static/js/main.c2003b58.js.map",
+    "main.d231a5a3.css.map": "/portfolio-anual/static/css/main.d231a5a3.css.map",
+    "main.758cff10.js.map": "/portfolio-anual/static/js/main.758cff10.js.map",
     "787.fcd3c7c6.chunk.js.map": "/portfolio-anual/static/js/787.fcd3c7c6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4cb432f0.css",
-    "static/js/main.c2003b58.js"
+    "static/css/main.d231a5a3.css",
+    "static/js/main.758cff10.js"
   ]
 }
