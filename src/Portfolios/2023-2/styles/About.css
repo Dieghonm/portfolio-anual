@@ -3,9 +3,22 @@
   width: 1059px;
 }
 
+.about2023B h2{
+  margin: 30px 30px 10px;
+  font-size: 40px;
+}
+
 .about-div2023B {
+  display: flex;
+  margin: 0px 100px;
 }
 
 .about-div2023B img{
   height: 50px;
+  margin: 0px 20px;
+}
+
+.about2023B p {
+margin: 20px 40px;
+  text-align: justify;
 }

@@ -47,13 +47,13 @@ function Skills() {
   return (
     <div className="Skills2023B">
       <h2>Skills</h2>
-        <div className="">
+        <div className="SkillsGroup-2023B">
           {sistems.map((sis,index) => iconDiv(sis, index, sistemsName))}
         </div>
-        <div className="">
+        <div className="SkillsGroup-2023B">
           {fronts.map((fro,index) => iconDiv(fro, index, frontsName))}
         </div>
-        <div className="">
+        <div className="SkillsGroup-2023B">
           {backs.map((back,index) => iconDiv(back, index, backsName))}
         </div>
     </div>

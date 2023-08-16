@@ -1,6 +1,6 @@
 .projects-2023 {
   background-color: var(--background-color-secundary);
-  margin:  50px 50px;
+  margin:  50px 70px;
   padding: 10px 20px;
   border: 25px var(--primary-color);
   border-right-style: solid;
@@ -94,65 +94,3 @@
   background-color: var(--accent-color);
   transition: background-color 0.3s ease;
 } 
-
-
-@media screen and (max-width: 600px) {
-  .prev-button-2023,
-  .next-button-2023 {
-    visibility: hidden;
-  }
-
-  .mobile-buttons-2023 {
-    display: flex;
-    justify-content:center
-  }
-  
-  .mobile-prev-button-2023,
-  .mobile-next-button-2023 {
-    visibility: visible;
-    border: none;
-    padding: 0;
-    background-color: transparent;
-    box-shadow: 0 0 10px var(--primary-color);
-    margin: 10px;
-    border-radius: 15px;
-    cursor: pointer;
-  }
-
-  .projects-2023 {
-    padding: 10px 0;
-  }
-  
-  .carousel-2023 {
-    width: 100%;
-    margin: 0%;
-    border-radius: 0%;
-    box-shadow: 0 0 0px var(--primary-color);
-  }
-
-  .project-image-2023 {
-    width: 300px;
-    height: 160px;
-  }
-
-  .mobile-prev-button-2023 svg,
-  .mobile-next-button-2023 svg{
-    margin: 0;
-    width: 30px;
-  }
-  
-  .project-item-2023 {
-    padding: 0px;
-    border-radius: 0px;
-    box-shadow: 0 0 0px rgba(0, 0, 0, 0.2);
-  }
-
-  .project-links-2023 a {
-    width: 100px;
-  }
-  
-  .project-description-2023 {
-    margin-bottom: 10px;
-    height: 120px;
-  }
-}

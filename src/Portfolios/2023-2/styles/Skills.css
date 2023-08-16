@@ -1,3 +1,14 @@
 .Skills2023B {
   width: 1059px;
 }
+
+.Skills2023B h2 {
+  margin: 30px;
+  font-size: 40px;
+}
+
+.SkillsGroup-2023B {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}

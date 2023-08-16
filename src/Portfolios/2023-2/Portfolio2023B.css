@@ -7,11 +7,13 @@
 }
 
 .Abas-2023B {
-  margin: 10px 20px 30px 0px;
+  margin: 10px 10px 0px 0px;
+  width: 10px;
   padding: 20px 0.1px;
   font-weight: bolder;
   writing-mode: vertical-rl;
   transform: rotate(-180deg);
+  cursor: pointer;
 }
 
 .Eu,

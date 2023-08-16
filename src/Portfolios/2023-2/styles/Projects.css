@@ -1,3 +1,29 @@
 .Projects2023B {
   width: 1059px;
 }
+
+.Projects2023B h2 {
+  margin: 30px;
+  font-size: 40px;
+}
+
+.projects-colection-2023B {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-card-2023B {
+  border: solid 1px black;
+  margin: 5px;
+  width: 204px;
+  cursor: pointer;
+}
+
+.project-card-2023B  p{
+  margin: 5px;
+}
+
+.project-card-2023B  img{
+  width: 160px;
+}

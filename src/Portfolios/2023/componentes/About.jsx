@@ -21,7 +21,7 @@ function About() {
       <span className="about-content2023">
         <div className="about-content-div2023">
           <img src={computer} alt="BugHunter" />
-          <h5 className="about-subtitle2023">- Um pouco sobre mim</h5>
+          <h3 className="about-subtitle2023">Um pouco sobre mim</h3>
         </div>
         <p>{aboutData.paragrafo1}</p>
         <p>{aboutData.paragrafo2}</p>

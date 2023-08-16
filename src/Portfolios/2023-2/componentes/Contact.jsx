@@ -7,6 +7,7 @@ import '../styles/Contact.css';
 function Contct() {
   return (
     <footer className="Contact2023B">
+      <h2>Contatos</h2>
       <nav className="header-nav">
         <a href="https://www.linkedin.com/in/diegho-neves/" target="_blank" rel="noopener noreferrer"><Linkedin /></a>
         <a href="https://github.com/Dieghonm" target="_blank" rel="noopener noreferrer"><Github /></a>
