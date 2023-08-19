@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-anual/static/css/main.200943c0.css",
-    "main.js": "/portfolio-anual/static/js/main.c1afb3fc.js",
+    "main.css": "/portfolio-anual/static/css/main.1f39782f.css",
+    "main.js": "/portfolio-anual/static/js/main.cbf93b73.js",
     "static/js/787.fcd3c7c6.chunk.js": "/portfolio-anual/static/js/787.fcd3c7c6.chunk.js",
     "static/media/AventurasFantasticas.png": "/portfolio-anual/static/media/AventurasFantasticas.82cd1939d968760face9.png",
     "static/media/computer.png": "/portfolio-anual/static/media/computer.8cc3053c5460535c9fa3.png",
@@ -11,12 +11,12 @@
     "static/media/Pokedex.png": "/portfolio-anual/static/media/Pokedex.26dd346613aedd7c82d1.png",
     "static/media/BugHunter.jpg": "/portfolio-anual/static/media/BugHunter.fc5f6ef5e083c4034614.jpg",
     "index.html": "/portfolio-anual/index.html",
-    "main.200943c0.css.map": "/portfolio-anual/static/css/main.200943c0.css.map",
-    "main.c1afb3fc.js.map": "/portfolio-anual/static/js/main.c1afb3fc.js.map",
+    "main.1f39782f.css.map": "/portfolio-anual/static/css/main.1f39782f.css.map",
+    "main.cbf93b73.js.map": "/portfolio-anual/static/js/main.cbf93b73.js.map",
     "787.fcd3c7c6.chunk.js.map": "/portfolio-anual/static/js/787.fcd3c7c6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.200943c0.css",
-    "static/js/main.c1afb3fc.js"
+    "static/css/main.1f39782f.css",
+    "static/js/main.cbf93b73.js"
   ]
 }
