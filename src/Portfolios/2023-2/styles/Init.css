@@ -1,18 +1,18 @@
 .init2023B {
   padding: 7px;
   width: 1045px;
+  text-align: justify;
 }
 
 .container2023B {
   display: flex;
   align-items: center;
-  padding: 0 150px;
-
+  padding: 40px 170px 0px;
 }
 
 .container2023B img{
   width: 150px;
-  margin: 10px 20px;
+  margin: 10px 30px;
   border-radius: 50%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 1);
 }

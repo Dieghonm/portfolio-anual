@@ -13,11 +13,68 @@
   flex-wrap: wrap;
 }
 
+
 .project-card-2023B {
   border: solid 1px black;
+  background-color: #ecf7fc;
   margin: 5px;
   width: 204px;
   cursor: pointer;
+}
+
+.show-project {
+  display: flex;
+}
+
+.project-list-2023B {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  padding: 20px 5px;
+  height: 350px;
+}
+
+.project-list-2023B button{
+  width: 300px;
+  height: 30px;
+}
+
+.selected-project-card-2023B {
+  box-shadow: -6px -6px 15px rgba(0, 0, 0, 2);
+  background-color: #ecf7fc;
+  padding: 20px;
+  margin: 10px;
+
+}
+
+.selected-project-card-2023B h3{
+  margin: 10px 0px 20px;
+}
+
+.selected-project-data-2023B {
+  display: flex;
+}
+
+.selected-project-text-2023B {
+  display: flex;
+  text-align: justify;
+  align-items: center;
+  background-color: whitesmoke;
+  box-shadow: -0.1px -0.1px 1px rgba(0, 0, 0, 2);
+  margin: 0px 20px;
+  padding: 0px 20px;
+  /* border: solid 1px black; */
+}
+
+.selected-project-img-2023B img{
+  width: 300px;
+  border-radius: 5%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 2);
+  margin: 30px 0px;
+}
+
+.selected-project-data-2023B a{
+  margin: 30px;
 }
 
 .project-card-2023B  p{
