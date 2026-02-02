@@ -1,0 +1,87 @@
+.projects-grid {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.project-card {
+    background: var(--bg-card);
+    border: var(--border-width) solid;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.project-card:nth-child(1) { border-color: var(--color-primary); }
+.project-card:nth-child(2) { border-color: var(--color-secondary); }
+.project-card:nth-child(3) { border-color: var(--color-tertiary); }
+.project-card:nth-child(4) { border-color: var(--color-accent); }
+
+.project-card:hover {
+    transform: translate(-8px, -8px);
+}
+
+.project-card:nth-child(1):hover { box-shadow: var(--shadow-brutal) var(--color-primary); }
+.project-card:nth-child(2):hover { box-shadow: var(--shadow-brutal) var(--color-secondary); }
+.project-card:nth-child(3):hover { box-shadow: var(--shadow-brutal) var(--color-tertiary); }
+.project-card:nth-child(4):hover { box-shadow: var(--shadow-brutal) var(--color-accent); }
+
+.project-image {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    background: linear-gradient(135deg, rgba(255, 107, 107, 0.1), rgba(78, 205, 196, 0.1));
+}
+
+.project-content {
+    padding: 2rem;
+}
+
+.project-title {
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.project-description {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.tech-badge {
+    padding: 0.4rem 0.8rem;
+    background: var(--bg-secondary);
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+}
+
+.project-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    background: var(--color-primary);
+    color: var(--bg-main);
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.project-link:hover {
+    transform: translate(-4px, -4px);
+    box-shadow: 4px 4px 0px 0px var(--color-primary);
+}
