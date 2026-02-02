@@ -5,7 +5,8 @@ function Portfolio2026() {
     <div className="container-2026">
       <nav className="navbar">
         <div className="nav-content">
-          <a href="#" className="nav-logo">DM</a>
+          <a href="#top" className="nav-logo">DM</a>
+
           <div className="nav-links">
             <a href="#skills">Skills</a>
             <a href="#projects">Projetos</a>
@@ -111,7 +112,15 @@ function Portfolio2026() {
                 <div className="project-tech">
                   {p.tech.map((t,idx)=><span key={idx} className="tech-badge">{t}</span>)}
                 </div>
-                <a href={p.link} target="_blank" className="project-link">VER CÓDIGO →</a>
+                <a
+                  href={p.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-link"
+                >
+                  VER CÓDIGO →
+                </a>
+
               </div>
             </div>
           ))}

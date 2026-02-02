@@ -23,7 +23,7 @@ function AppBody(props) {
       case '2026':
         return <Portfolio2026 />    
       default:
-        return <Portfolio2024 />
+        return <Portfolio2026 />
     }
   }
 
