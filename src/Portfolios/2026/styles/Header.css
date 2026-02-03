@@ -33,11 +33,14 @@
     padding: 0.5rem 1.5rem;
     background: var(--color-primary);
     transition: all 0.3s ease;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
 }
 
 .nav-logo:hover {
     transform: translate(-4px, -4px);
-    box-shadow: var(--shadow-brutal) var(--color-primary);
+    box-shadow: var(--shadow-brutal) var(--color-secondary);
 }
 
 .nav-links {
@@ -56,4 +59,109 @@
 
 .nav-links a:hover {
     color: var(--color-primary);
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    background: none;
+    border: none;
+    cursor: pointer;
+    gap: 5px;
+    padding: 0;
+    z-index: 1001;
+}
+
+.menu-toggle span {
+    width: 25px;
+    height: 3px;
+    background: var(--color-primary);
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+.menu-toggle.active span:nth-child(1) {
+    transform: rotate(45deg) translate(10px, 10px);
+}
+
+.menu-toggle.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-toggle.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
+}
+
+/* Responsive - Tablet */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 1.5rem 4%;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .nav-links {
+        position: absolute;
+        top: calc(100% + 4px);
+        left: 4%;
+        right: 4%;
+        flex-direction: column;
+        background: var(--bg-secondary);
+        border: var(--border-width) solid var(--color-primary);
+        padding: 2rem;
+        gap: 1rem;
+        display: none;
+        animation: slideDown 0.3s ease;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links a {
+        padding: 0.75rem 0;
+        border-bottom: 1px solid rgba(255, 107, 107, 0.2);
+    }
+
+    .nav-links a:last-child {
+        border-bottom: none;
+    }
+
+    .nav-logo {
+        font-size: 1.5rem;
+        padding: 0.5rem 1rem;
+    }
+}
+
+/* Responsive - Mobile */
+@media (max-width: 480px) {
+    .navbar {
+        padding: 1rem 3%;
+    }
+
+    .nav-content {
+        justify-content: space-between;
+    }
+
+    .nav-logo {
+        font-size: 1.25rem;
+        padding: 0.5rem 0.75rem;
+    }
+
+    .nav-links {
+        left: 3% !important;
+        right: 3% !important;
+        padding: 1.5rem !important;
+    }
+
+    .nav-links a {
+        font-size: 0.9rem;
+    }
+
+    .menu-toggle span {
+        width: 22px;
+        height: 2.5px;
+    }
 }

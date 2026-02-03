@@ -1,5 +1,3 @@
-
-
 /* Contact */
 .contact {
     background: var(--bg-secondary);
@@ -41,6 +39,11 @@
 
 .contact-icon {
     font-size: 3rem;
+    flex-shrink: 0;
+}
+
+.contact-info {
+    flex: 1;
 }
 
 .contact-label {
@@ -49,9 +52,133 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 600;
+    margin-bottom: 0.25rem;
 }
 
 .contact-value {
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 600;
+}
+
+/* CTA Section */
+.cta-section {
+    max-width: 800px;
+    margin: 4rem auto 0;
+    text-align: center;
+    background: var(--bg-card);
+    border: var(--border-width) solid var(--color-primary);
+    padding: 4rem;
+}
+
+.cta-title {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.cta-description {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    margin-bottom: 2.5rem;
+    line-height: 1.8;
+}
+
+.cta-btn {
+    padding: 1.5rem 3rem;
+    font-size: 1.1rem;
+}
+
+.cta-subtitle {
+    margin-bottom: 3rem;
+}
+
+/* Responsive - Tablet */
+@media (max-width: 768px) {
+    .contact {
+        padding: 8rem 3% 5%;
+    }
+
+    .contact-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .contact-card {
+        padding: 1.5rem;
+    }
+
+    .contact-icon {
+        font-size: 2.5rem;
+    }
+
+    .cta-section {
+        padding: 3rem 2rem;
+        margin: 3rem auto 0;
+    }
+
+    .cta-title {
+        font-size: 1.8rem;
+    }
+
+    .cta-description {
+        font-size: 1rem;
+    }
+}
+
+/* Responsive - Mobile */
+@media (max-width: 480px) {
+    .contact {
+        padding: 7rem 4% 3%;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .contact-card {
+        padding: 1.25rem;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-info {
+        width: 100%;
+    }
+
+    .contact-icon {
+        font-size: 2rem;
+    }
+
+    .contact-label {
+        font-size: 0.8rem;
+    }
+
+    .contact-value {
+        font-size: 1rem;
+    }
+
+    .cta-section {
+        padding: 2rem 1.5rem;
+        margin: 2rem auto 0;
+        border: var(--border-width) solid var(--color-primary);
+    }
+
+    .cta-title {
+        font-size: 1.5rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .cta-description {
+        font-size: 0.95rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .cta-btn {
+        padding: 1rem 2rem;
+        font-size: 1rem;
+    }
 }
